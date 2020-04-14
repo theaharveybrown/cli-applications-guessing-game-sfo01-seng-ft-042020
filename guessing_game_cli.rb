@@ -12,5 +12,5 @@ def run_guessing_game
   else 
     puts "random num was #{random_num}"
     return "YOU LOSE"
-    
+  end 
 end 
