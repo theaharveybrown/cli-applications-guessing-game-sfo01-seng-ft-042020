@@ -8,9 +8,9 @@ def run_guessing_game
   input = gets.chomp
   if input.to_i == random_num.to_s
     puts "random num was #{random_num}"
-    return "YOU WIN!"
+    # return "YOU WIN!"
   else 
-    puts "random num was #{random_num}"
-    return "YOU LOSE"
+    puts "Sorry! The computer guessed #{random_num}."
+    # return "YOU LOSE"
   end 
 end 
